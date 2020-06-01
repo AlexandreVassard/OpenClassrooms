@@ -1,21 +1,5 @@
 /* GENERAL */
 
-@media (max-width: 960px) {
-    
-    #photo {
-        display: none;
-    }
-    
-    #section_decoration {
-        display: none;
-    }
-    
-    #description {
-        margin-right:100px;
-    }
-    
-}
-
 @font-face {
     font-family: 'montserrat';
     src: url('fonts/montserrat-light-webfont.woff2') format('woff2'),
@@ -122,4 +106,30 @@ footer img {
 
 footer img:hover {
     background-color: #3A659E;
+}
+
+@media (max-width: 960px) {
+    
+    #photo {
+        display: none;
+    }
+    
+    #section_decoration {
+        display: none;
+    }
+    
+    #identity {
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+    
+    #description {
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+    
+    header {
+        padding: 0;
+    }
+    
 }
